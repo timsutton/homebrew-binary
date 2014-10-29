@@ -2,14 +2,14 @@ require 'formula'
 
 class Packer < Formula
   homepage 'http://www.packer.io'
-  version '0.7.1'
+  version '0.7.2'
 
   if Hardware.is_64_bit?
-    url 'https://dl.bintray.com/mitchellh/packer/packer_0.7.1_darwin_amd64.zip'
-    sha256 '10b266d9020b72ff09a38cd7b6b42a3ec4bd78b1b13a83e9a5c433d504378322'
+    url 'https://dl.bintray.com/mitchellh/packer/packer_0.7.2_darwin_amd64.zip'
+    sha256 'bed7ddc255b5b71b139de5e30d4221926cd314a87baf0b937ba7a97c196b1286'
   else
-    url 'https://dl.bintray.com/mitchellh/packer/packer_0.7.1_darwin_386.zip'
-    sha256 '198493bed2eb8676b8232418b49f95c1d8f7a197957c24f42aa67d030aa1ee0a'
+    url 'https://dl.bintray.com/mitchellh/packer/packer_0.7.2_darwin_386.zip'
+    sha256 '00c73eba76139869e39377e6c342e937d36f1a1b81920f4948608c5c10455190'
   end
 
   depends_on :arch => :intel
